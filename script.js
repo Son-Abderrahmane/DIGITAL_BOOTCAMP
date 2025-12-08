@@ -99,6 +99,7 @@
           { name: 'Abderrahmane Mlih', role: 'Stagiaire de Full stuck 207' },
           { name: 'Khadija Dafrine', role: 'Stagiaire de Full stuck 207' },
           { name: 'Zakaria Hrida', role: 'Stagiaire de Full stuck 207' },
+          { name: 'Salma Abaryoud', role: 'Stagiaire de Full stuck 207' },
           { name: 'Hiba Mazrak', role: 'Stagiaire de Full stuck 207' },
           { name: 'Chaimae Bensouda', role: 'Stagiaire de Full stuck 207' },
           { name: 'Moncef Fennan', role: 'Stagiaire de Full stuck 207' }
