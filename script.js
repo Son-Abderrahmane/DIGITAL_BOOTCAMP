@@ -1,16 +1,36 @@
     // Data
     const workshops = [
       {
-        id: 1,
-        title: 'AI Agentic',
-        description: 'Découvrez les systèmes d\'agents IA autonomes',
-        icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
-        plan: [
-          { phase: 'Phase 1: Introduction & Théorie', details: 'Comprendre les concepts fondamentaux des agents IA et leur architecture' },
-          { phase: 'Phase 2: Pratique Hands-on', details: 'Construire votre premier agent IA avec des frameworks modernes' },
-          { phase: 'Phase 3: Cas d\'Usage', details: 'Explorer les applications réelles et les scénarios d\'implémentation' },
-          { phase: 'Phase 4: Q&A et Déploiement', details: 'Session interactive et guide de déploiement en production' }
-        ]
+  id: 1,
+  title: 'AI Agentic',
+  description: 'Comprendre les modèles de langage et leurs usages',
+  icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
+  plan: [
+    {
+      phase: 'Introduction & Concepts de Base',
+      details: 'Présentation des notions fondamentales de l’IA et des modèles de langage'
+    },
+    {
+      phase: 'Caractéristiques Principales',
+      details: 'Capacité à comprendre, générer du texte et s’adapter au contexte'
+    },
+    {
+      phase: 'Rôle des API',
+      details: 'Permettre l’intégration des modèles IA dans des applications'
+    },
+    {
+      phase: 'Architecture Fondamentale (LLM)',
+      details: 'Basée sur les Transformers pour traiter de grandes quantités de texte'
+    },
+    {
+      phase: 'Mécanismes Avancés & Frameworks',
+      details: 'Fine-tuning, prompt engineering et frameworks IA modernes'
+    },
+    {
+      phase: 'Applications Concrètes',
+      details: 'Chatbots, traduction, analyse de données et assistance intelligente'
+    }
+  ]
       },
             {
         id: 3,
@@ -75,7 +95,7 @@
           { name: 'Salim Gouraguine', role: 'Stagiaire de Full stuck 207' },
           { name: 'Israe Yajib', role: 'Stagiaire de Full stuck 207' },
           { name: 'Oussama Bouzalim', role: 'Stagiaire de Full stuck 207' },
-          { name: 'Rawaa Mchaabat', role: 'Stagiaire de Full stuck 207' }
+          { name: "Rawâa M'chaabat", role: 'Stagiaire de Full stuck 207' }
         ]
       },
       {
@@ -85,7 +105,7 @@
         members: [
           { name: 'Marwa El Morid', role: 'Stagiaire de Full stuck 207' },
           { name: 'Sami Ftaita', role: 'Stagiaire de Full stuck 207' },
-          { name: 'Othamne Fakir', role: 'Stagiaire de Full stuck 207' },
+          { name: 'Othmane Fakir', role: 'Stagiaire de Full stuck 207' },
           { name: 'Salma Kourtaf', role: 'Stagiaire de Full stuck 207' },
           { name: 'Mohamed Jannane', role: 'Stagiaire de Full stuck 207' },
           { name: 'Zakariya Chmesi', role: 'Stagiaire de Full stuck 207' }
@@ -102,7 +122,10 @@
           { name: 'Salma Abaryoud', role: 'Stagiaire de Full stuck 207' },
           { name: 'Hiba Mazrak', role: 'Stagiaire de Full stuck 207' },
           { name: 'Chaimae Bensouda', role: 'Stagiaire de Full stuck 207' },
-          { name: 'Moncef Fennan', role: 'Stagiaire de Full stuck 207' }
+          { name: 'Moncef Fennan', role: 'Stagiaire de Dev 205' },
+          { name: 'Oussama Sabbar', role: 'Stagiaire de Dev 205' }
+
+
         ]
       }
     ];
