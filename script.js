@@ -202,7 +202,7 @@ const teams = [
       { name: "Marwa El Mourid", role: "Stagiaire de Full stuck 207" },
       { name: "Sami Ftaita", role: "Stagiaire de Full stuck 207" },
       { name: "Othmane Fakir", role: "Stagiaire de Full stuck 207" },
-      { name: "Salma Kourtaf", role: "Stagiaire de Full stuck 207" },
+      { name: "Salma Kortaf", role: "Stagiaire de Full stuck 207" },
       { name: "Mohamed Jannane", role: "Stagiaire de Full stuck 207" },
       { name: "Zakaria Chemsi", role: "Stagiaire de Full stuck 207" },
     ],
