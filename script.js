@@ -175,8 +175,8 @@ const teams = [
     members: [
       { name: "El-falah Hassania", role: "Stagiaire de Full stuck 207" },
       { name: "Harzafi Ghita", role: "Stagiaire de Full stuck 207" },
-      { name: "Hasbi Zakaria", role: "Stagiaire de Dev 105" },
-      { name: "Drifi Oussama", role: "Stagiaire de Dev 105" },
+      { name: "Hasbi Zakaria", role: "Stagiaire de Full stuck 205" },
+      { name: "Drifi Oussama", role: "Stagiaire de Full stuck 205" },
       { name: "Aya Asrir", role: "Stagiaire de Full stuck 207" },
       { name: "Kaoutar Saydi", role: "Stagiaire de Full stuck 207" },
     ],
