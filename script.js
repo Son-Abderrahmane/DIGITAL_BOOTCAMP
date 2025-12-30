@@ -6,16 +6,16 @@ const workshops = [
     description: "Découvrez les systèmes d'agents IA autonomes",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
     prerequisites: [
-    "Ordinateur portable avec Python 3.8+ installé",
-    "gemini SDK (google-genai, version 0.3.0)",
-    "Bibliothèque Pydantic (version 2.5.0)",
-    "Environnement virtuel Python (version 1.0.1)",
-    "Connexion avec une base de données MySQL (mysql-connector-python version 8.1.0)",
-    "[Optionnel] Framework d'applications web Flask (Flask version 3.0.0 et Flask-CORS version 4.0.0)",
-    "Compte OpenAI ou Anthropic (clé API)",
-    "Connaissances de base en Python",
-    "IDE ou éditeur de code (VSCode, PyCharm, etc.)",
-    "Connexion Internet stable"
+      "Ordinateur portable avec Python 3.8+ installé",
+      "gemini SDK (google-genai, version 0.3.0)",
+      "Bibliothèque Pydantic (version 2.5.0)",
+      "Environnement virtuel Python (version 1.0.1)",
+      "Connexion avec une base de données MySQL (mysql-connector-python version 8.1.0)",
+      "[Optionnel] Framework d'applications web Flask (Flask version 3.0.0 et Flask-CORS version 4.0.0)",
+      "Compte OpenAI ou Anthropic (clé API)",
+      "Connaissances de base en Python",
+      "IDE ou éditeur de code (VSCode, PyCharm, etc.)",
+      "Connexion Internet stable",
     ],
     plan: [
       {
@@ -54,7 +54,7 @@ const workshops = [
     description: "Automatisation avancée des workflows",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 17a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zM14 17a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1v-2z"/>',
     prerequisites: [
-      "Les participants doivent créer un compte sur la plateforme n8n via le site officiel https://n8n.io  afin de pouvoir suivre les démonstrations pratiques et les exercices",
+      "Les participants doivent créer un compte sur la plateforme n8n via le site officiel https://n8n.io afin de pouvoir suivre les démonstrations pratiques et les exercices",
     ],
     plan: [
       {
@@ -84,7 +84,6 @@ const workshops = [
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>',
     prerequisites: [
       "<strong>Logiciel à installer :</strong> Visual Studio Code (VS Code)",
-
       "<strong>Bibliothèques Python à installer :</strong>",
       "NumPy : manipulation des tableaux numériques",
       "OpenCV (cv2) : lecture et traitement des images",
@@ -92,7 +91,7 @@ const workshops = [
       "Scikit-learn : division des données (train / test / validation)",
       "Matplotlib : affichage des images et des courbes",
       "Pickle : sauvegarde et chargement du modèle entraîné",
-       '⚠️ IMPORTANT : Veuillez télécharger le dossier du dataset disponible dans le footer de cette page avant le début de la séance afin de pouvoir suivre correctement les démonstrations pratiques.'
+      "⚠️ IMPORTANT : Veuillez télécharger le dossier du dataset disponible dans le footer de cette page avant le début de la séance afin de pouvoir suivre correctement les démonstrations pratiques.",
     ],
     plan: [
       {
@@ -126,7 +125,6 @@ const workshops = [
           "Implémentation du modèle et évaluation des résultats à l’aide de métriques adaptées",
       },
     ],
-    
   },
   {
     id: 4,
@@ -136,7 +134,6 @@ const workshops = [
     prerequisites: [
       "Aucun prérequis technique n’est nécessaire. Les participants doivent simplement venir et suivre attentivement les explications durant le workshop.",
     ],
-
     plan: [
       {
         phase: "Phase 1: Introduction aux Systèmes Embarqués",
@@ -173,11 +170,19 @@ const teams = [
     title: "AI Agentic",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>',
     members: [
-      { name: "El-falah Hassania", role: "Stagiaire de Full stuck 207" },
-      { name: "Harzafi Ghita", role: "Stagiaire de Full stuck 207" },
-      { name: "Hasbi Zakaria", role: "Stagiaire de Full stuck 205" },
+      { name: "El-falah Hassania", role: "Stagiaire de Full stuck 207" , portfolio: "https://myportfolio1-hia1.vercel.app/"},
+      {
+        name: "Harzafi Ghita",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://ghitaharzafi.github.io/",
+      },
+      {
+        name: "Hasbi Zakaria",
+        role: "Stagiaire de Full stuck 205",
+        portfolio: "",
+      },
       { name: "Drifi Oussama", role: "Stagiaire de Full stuck 205" },
-      { name: "Aya Asrir", role: "Stagiaire de Full stuck 207" },
+      { name: "Aya Asrir", role: "Stagiaire de Full stuck 207", portfolio: "https://portfolioaya-git-main-ayas-projects-1623d1c3.vercel.app/"},
       { name: "Kaoutar Saydi", role: "Stagiaire de Full stuck 207" },
     ],
   },
@@ -188,9 +193,13 @@ const teams = [
     members: [
       { name: "Douaa Tabit", role: "Stagiaire de Full stuck 207" },
       { name: "Mouad Haddad", role: "Stagiaire de Full stuck 207" },
-      { name: "Salim Gouraguine", role: "Stagiaire de Full stuck 207" },
-      { name: "Israe Yajib", role: "Stagiaire de Full stuck 207" },
-      { name: "Oussama Bouzalim", role: "Stagiaire de Full stuck 207" },
+      { name: "Salim Gouraguine", role: "Stagiaire de Full stuck 207" , portfolio: "https://salim-gouraguine.vercel.app/"},
+      {
+        name: "Israe Yajib",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://github.com/israe44/portfolio-de-israe.git",
+      },
+      { name: "Oussama Bouzalim", role: "Stagiaire de Full stuck 207", portfolio: "https://osamabouzalim.com"},
       { name: "Rawâa M'chaabat", role: "Stagiaire de Full stuck 207" },
     ],
   },
@@ -199,11 +208,27 @@ const teams = [
     title: "Classification des images",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>',
     members: [
-      { name: "Marwa El Mourid", role: "Stagiaire de Full stuck 207" },
+      {
+        name: "Marwa El Mourid",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://portfolio-elmourid.netlify.app",
+      },
       { name: "Sami Ftaita", role: "Stagiaire de Full stuck 207" },
-      { name: "Othmane Fakir", role: "Stagiaire de Full stuck 207" },
-      { name: "Salma Kortaf", role: "Stagiaire de Full stuck 207" },
-      { name: "Mohamed Jannane", role: "Stagiaire de Full stuck 207" },
+      {
+        name: "Othmane Fakir",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://ofafolio.netlify.app/",
+      },
+      {
+        name: "Salma Kortaf",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://salmakortafportefolio-jrjv.vercel.app/",
+      },
+      {
+        name: "Mohamed Jannane",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://mohamedjananne.online/",
+      },
       { name: "Zakaria Chemsi", role: "Stagiaire de Full stuck 207" },
     ],
   },
@@ -212,13 +237,37 @@ const teams = [
     title: "Système embarqué",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>',
     members: [
-      { name: "Abderrahmane Mlih", role: "Stagiaire de Full stuck 207" },
-      { name: "Khadija Dafrine", role: "Stagiaire de Full stuck 207" },
-      { name: "Zakaria Hrida", role: "Stagiaire de Full stuck 207" },
-      { name: "Salma Abaryoud", role: "Stagiaire de Full stuck 207" },
-      { name: "Hiba Mazrak", role: "Stagiaire de Full stuck 207" },
-      { name: "Chaimae Bensouda", role: "Stagiaire de Full stuck 207" },
-      { name: "Moncef Fennan", role: "Stagiaire de Dev 105" },
+      {
+        name: "Abderrahmane Mlih",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://son-abderrahmane.github.io/My_Personal_Portfolio-/",
+      },
+      {
+        name: "Khadija Dafrine",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://dafrine.github.io/My_Personal_Portfolio/",
+      },
+      {
+        name: "Zakaria Hrida",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "http://www.zakariahrida.website",
+      },
+      {
+        name: "Salma Abaryoud",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://salmabaryoud.github.io/",
+      },
+      {
+        name: "Hiba Mazrak",
+        role: "Stagiaire de Full stuck 207",
+        portfolio: "https://hiba997ugu.github.io/portfolio_total/",
+      },
+      { name: "Chaimae Bensouda", role: "Stagiaire de Full stuck 207" , portfolio: "https://chaimae-portfolio.vercel.app/"},
+      {
+        name: "Moncef Fennan",
+        role: "Stagiaire de Dev 105",
+        portfolio: "https://www.linkedin.com/in/moncef-fennan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
       { name: "Oussama Sabbar", role: "Stagiaire de Dev 105" },
     ],
   },
@@ -229,79 +278,77 @@ const workshopsGrid = document.getElementById("workshops-grid");
 workshops.forEach((workshop) => {
   const card = document.createElement("div");
   card.className = "workshop-card";
-  card.innerHTML = `
-        <div class="workshop-header">
-          <div class="workshop-info">
-            <div class="workshop-icon">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                ${workshop.icon}
-              </svg>
-            </div>
-            <div style="flex: 1; min-width: 0;">
-              <h3 class="workshop-title pixel-font">${workshop.title}</h3>
-              <p class="workshop-description">${workshop.description}</p>
-            </div>
-          </div>
-          <div class="chevron">
-            <svg width="24" height="24" fill="none" stroke="#ccff00" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </div>
-        </div>
-        <div class="workshop-content">
-          <div class="workshop-plan">
-            <h4 class="plan-title">Plan du Workshop</h4>
-            ${workshop.plan
-              .map(
-                (item) => `
-              <div class="plan-item">
-                <div class="plan-phase">${item.phase}</div>
-                <div class="plan-details">${item.details}</div>
-              </div>
-            `
-              )
-              .join("")}
-          </div>
-                    <div class="workshop-plan">
-            <h4 class="plan-title">Prérequis</h4>
-            <ul class="prerequisites-list">
-              ${workshop.prerequisites
-                .map(
-                  (prerequisite) => `
-                <li>${prerequisite}</li>
-              `
-                )
-                .join("")}
-            </ul>
-          </div>
-        </div>
-      `;
 
-  // Append to grid first, then add event listener
+  card.innerHTML = `
+    <div class="workshop-header">
+      <div class="workshop-info">
+        <div class="workshop-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            ${workshop.icon}
+          </svg>
+        </div>
+        <div style="flex: 1; min-width: 0;">
+          <h3 class="workshop-title pixel-font">${workshop.title}</h3>
+          <p class="workshop-description">${workshop.description}</p>
+        </div>
+      </div>
+      <div class="chevron">
+        <svg width="24" height="24" fill="none" stroke="#ccff00" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="workshop-content">
+      <div class="workshop-plan">
+        <h4 class="plan-title">Plan du Workshop</h4>
+        ${workshop.plan
+          .map(
+            (item) => `
+            <div class="plan-item">
+              <div class="plan-phase">${item.phase}</div>
+              <div class="plan-details">${item.details}</div>
+            </div>
+          `
+          )
+          .join("")}
+      </div>
+
+      <div class="workshop-plan">
+        <h4 class="plan-title">Prérequis</h4>
+        <ul class="prerequisites-list">
+          ${workshop.prerequisites
+            .map(
+              (prerequisite) => `
+              <li>${prerequisite}</li>
+            `
+            )
+            .join("")}
+        </ul>
+      </div>
+    </div>
+  `;
+
   workshopsGrid.appendChild(card);
 });
 
 // Add click handlers after all cards are in the DOM
 document.querySelectorAll(".workshop-card").forEach((card) => {
-  card.addEventListener("click", function (e) {
+  card.addEventListener("click", function () {
     const isCurrentlyActive = this.classList.contains("active");
 
     // Close all cards
     document.querySelectorAll(".workshop-card").forEach((c) => {
       c.classList.remove("active");
       const content = c.querySelector(".workshop-content");
-      if (content) {
-        content.classList.remove("active");
-      }
+      if (content) content.classList.remove("active");
     });
 
     // If this card wasn't active, open it
     if (!isCurrentlyActive) {
       this.classList.add("active");
       const content = this.querySelector(".workshop-content");
-      if (content) {
-        content.classList.add("active");
-      }
+      if (content) content.classList.add("active");
     }
   });
 });
@@ -311,33 +358,40 @@ const teamsGrid = document.getElementById("teams-grid");
 teams.forEach((team) => {
   const card = document.createElement("div");
   card.className = "team-card";
+
   card.innerHTML = `
-        <div class="team-header">
-          <div class="workshop-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              ${team.icon}
-            </svg>
-          </div>
-          <h3 class="pixel-font" style="color: #ccff00; font-size: 0.8rem;">${
-            team.title
-          }</h3>
-        </div>
-        <div class="team-members">
-          ${team.members
-            .map(
-              (member) => `
-            <div class="member-card scanlines">
-              <div>
-                <div class="member-name">${member.name}</div>
-                <div class="member-role">${member.role}</div>
+    <div class="team-header">
+      <div class="workshop-icon">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          ${team.icon}
+        </svg>
+      </div>
+      <h3 class="pixel-font" style="color: #ccff00; font-size: 0.8rem;">${team.title}</h3>
+    </div>
+
+    <div class="team-members">
+      ${team.members
+        .map(
+          (member) => `
+          <div class="member-card scanlines">
+            <div>
+              <div class="member-name">
+                ${
+                  member.portfolio
+                    ? `<a class="member-link" href="${member.portfolio}" target="_blank" rel="noopener noreferrer">${member.name}</a>`
+                    : member.name
+                }
               </div>
-              <div class="status-dot"></div>
+              <div class="member-role">${member.role}</div>
             </div>
-          `
-            )
-            .join("")}
-        </div>
-      `;
+            <div class="status-dot"></div>
+          </div>
+        `
+        )
+        .join("")}
+    </div>
+  `;
+
   teamsGrid.appendChild(card);
 });
 
@@ -349,6 +403,7 @@ function resizeCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = document.documentElement.scrollHeight;
 }
+
 resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
