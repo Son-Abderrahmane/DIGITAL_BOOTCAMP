@@ -191,7 +191,7 @@ const teams = [
     title: "n8n",
     icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 17a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zM14 17a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1h-4a1 1 0 01-1-1v-2z"/>',
     members: [
-      { name: "Douaa Tabit", role: "Stagiaire de Full stuck 207" },
+      { name: "Douaa Tabit", role: "Stagiaire de Full stuck 207", portfolio: "https://portfolio-two-tau-1fsbqjfa48.vercel.app/"},
       { name: "Mouad Haddad", role: "Stagiaire de Full stuck 207" },
       { name: "Salim Gouraguine", role: "Stagiaire de Full stuck 207" , portfolio: "https://salim-gouraguine.vercel.app/"},
       {
@@ -268,7 +268,7 @@ const teams = [
         role: "Stagiaire de Dev 105",
         portfolio: "https://www.linkedin.com/in/moncef-fennan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
-      { name: "Oussama Sabbar", role: "Stagiaire de Dev 105" },
+      { name: "Oussama Sabbar", role: "Stagiaire de Dev 105", portfolio: "https://www.linkedin.com/in/oussama-sabar-8711783a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     ],
   },
 ];
