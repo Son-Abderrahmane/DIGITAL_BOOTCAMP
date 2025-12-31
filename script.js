@@ -197,7 +197,7 @@ const teams = [
       {
         name: "Israe Yajib",
         role: "Stagiaire de Full stuck 207",
-        portfolio: "https://github.com/israe44/portfolio-de-israe.git",
+        portfolio: "https://israe.fun/",
       },
       { name: "Oussama Bouzalim", role: "Stagiaire de Full stuck 207", portfolio: "https://osamabouzalim.com"},
       { name: "Rawâa M'chaabat", role: "Stagiaire de Full stuck 207" },
