@@ -211,9 +211,9 @@ const teams = [
       {
         name: "Marwa El Mourid",
         role: "Stagiaire de Full stuck 207",
-        portfolio: "https://portfolio-elmourid.netlify.app",
+        portfolio: "https://marwa1005.github.io/marwa-portfolio/",
       },
-      { name: "Sami Ftaita", role: "Stagiaire de Full stuck 207" },
+      { name: "Sami Ftaita", role: "Stagiaire de Full stuck 207", portfolio: "https://sami-ftaita.vercel.app/"},
       {
         name: "Othmane Fakir",
         role: "Stagiaire de Full stuck 207",
